@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+/* navbar */
+header {
+    background-color: blueviolet;
+    height: 80px;
+    padding: 0 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* left */
+.left a .fa-solid {
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.left span a {
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+}
+
+/* right */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+.search-li {
+    margin-left: 0px;
+}
+
+.search-li .search {
+    padding: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.search {
+    width: 100%;
+}
+
+.right-icons {
+    color: black;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.right-icons:hover {
+    color: blue;
+}
+
+/* main section */
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.section-two {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.section-one,
+.section-three {
+    margin: auto;
+    width: 100%;
+    height: 2000vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* section one */
+.section-one {
+    background-color: ghostwhite;
+    text-align: left;
+    margin-top: 0;
+}
+
+.section-one ul {
+    top: 0;
+    position: sticky;
+}
+
+hr {
+    margin: 20px 20px 10px 20px;
+}
+
+.section-one ul li {
+    padding-left: 50px;
+}
+
+.section-one ul {
+    list-style-type: none;
+}
+
+.section-one ul li a {
+    color: black;
+    font-size: large;
+    line-height: 40px;
+}
+
+.section-one ul li a:hover {
+    color: gray;
+}
+
+.hr {
+    margin: 20px 20px 10px 20px;
+}
+
+/* section two */
+.section-two {
+    height: auto;
+    margin-top: 10px;
+}
+
+.section-two h4 {
+    text-align: left;
+}
+
+h4 .alert-message {
+    color: red;
+    font-size: small;
+}
+
+.section-two .text-place {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    font-size: large;
+    padding: 20px;
+    text-align: left;
+}
+
+.text-place {
+    padding-left: 0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.section-two .btn {
+    margin-top: 5px;
+    margin-left: 35px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    text-align: left;
+    color: gainsboro;
+    background-color: purple;
+    display: block;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: tomato;
+}
+
+.btn-group .btn2 {
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    text-align: left;
+    color: gainsboro;
+    background-color: purple;
+    display: block;
+    cursor: pointer;
+}
+
+.btn2:active {
+    background-color: tomato;
+}
+
+.attach-file {
+    margin-top: 5px;
+}
+
+.posts {
+    margin-top: 30px;
+}
+
+.all-post .posts {
+    margin-top: 10px;
+}
+
+
+/* section three */
+.section-three {
+    background-color: ghostwhite;
+    margin-top: 0;
+}
+
+.section-three ul {
+    position: sticky;
+    top: 0;
+}
+
+/* chat lists */
+.chat-lists {
+    text-align: left;
+    list-style-type: none;
+}
+
+.chat-lists li {
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0;
+}
+
+.chat-lists li span:hover {
+    color: gray;
+}
+
+.chat-lists li:hover {
+    background-color: rgb(233, 227, 227);
+}
+
+h4 {
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+
+span {
+    color: black;
+}
+
+.fa-circle-user {
+    font-size: xx-large;
+    color: gray;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    font-size: small;
+    right: -2px;
+    top: 20px;
+}
+
+/* msg show & hide */
+.show-hide {
+    margin-top: 50px;
+}
+
+.show,
+.hide a {
+    text-decoration: underline;
+}
+
+.show:hover,
+.hide a:hover {
+    color: gray;
+}
+
+.hide {
+    padding-left: 80px;
+}
+
+.show {
+    position: sticky;
+    top: 420px;
+}

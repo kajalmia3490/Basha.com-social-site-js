@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basha.com</title>
+
+    <!-- css file import -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- cdn link of fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+
+        <!-- left side -->
+        <div class="left">
+            <a href="#">
+                <i class="fa-solid fa-house" onclick="pageReload()"></i>
+            </a>
+            <span>
+                <a href="#" onclick="pageReload()">Basha.COM</a>
+            </span>
+        </div>
+
+        <!-- right side -->
+        <nav>
+            <ul>
+                <li class="search-li">
+                    <input class="search" type="search" placeholder="Search address">
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house right-icons"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-address-card right-icons"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass-location right-icons"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-globe right-icons"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-phone-volume right-icons"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- main section -->
+    <main>
+
+        <!-- section one -->
+        <div class="section-one">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Information
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-person-dress"></i>
+                        Status
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        Messages
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-user-tie"></i>
+                        Proffession
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-mask"></i>
+                        Privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-key"></i>
+                        Security
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-elementor"></i>
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-grip"></i>
+                        See All
+                    </a>
+                </li>
+                <hr class="hr">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        Settings
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- section two -->
+        <div class="section-two">
+            <h4>
+                # Write a post here (
+                <span class="alert-message">
+                    Before click the "clear text" button
+                </span>
+                ):
+            </h4>
+            <textarea class="text-place" id="text-place"
+                placeholder="Must give your Name, Address, Number and describe in your flat..." onclick="textClear()">
+            </textarea>
+
+            <!-- attach file -->
+            <input type="file" id="file" class="attach-file">
+
+            <div class="btn-group">
+                <button class="btn" id="post" onclick="postButton()">
+                    Post
+                </button>
+                <button class="btn2" id="clear" onclick="textClear()">
+                    Clear Text
+                </button>
+            </div>
+            <hr>
+            <div class="all-post">
+                <h2>
+                    Recent Posts
+                </h2>
+                <ul class="posts" id="post-item">
+                    Posts Loading...
+                </ul>
+            </div>
+        </div>
+
+        <!-- section three -->
+        <div class="section-three">
+            <h1 class="msg">
+                Messages
+                <i class="fa-brands fa-facebook-messenger"></i>
+            </h1>
+            <hr>
+
+            <!-- chat lists -->
+            <ul class="chat-lists" id="chats">
+                <li>
+                    <a href="#">
+                        <h4>
+                            <i class="fa-solid fa-circle-user">
+                                <i class="fa-solid fa-circle text" style="color: #02f506;"></i>
+                            </i>
+                            <span>
+                                Mark Zukarbarg
+                            </span>
+                        </h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>
+                            <i class="fa-solid fa-circle-user">
+                                <i class="fa-solid fa-circle text" style="color: #02f506;"></i>
+                            </i>
+                            <span>
+                                Bill Gates
+                            </span>
+                        </h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>
+                            <i class="fa-solid fa-circle-user">
+                                <i class="fa-solid fa-circle text" style="color: #02f506;"></i>
+                            </i>
+                            <span>
+                                Elon Musk
+                            </span>
+                        </h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>
+                            <i class="fa-solid fa-circle-user">
+                                <i class="fa-solid fa-circle text" style="color: #02f506;"></i>
+                            </i>
+                            <span>
+                                Stive Joves
+                            </span>
+                        </h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>
+                            <i class="fa-solid fa-circle-user">
+                                <i class="fa-solid fa-circle text" style="color: #02f506;"></i>
+                            </i>
+                            <span>
+                                Sundor Pichai
+                            </span>
+                        </h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>
+                            <i class="fa-solid fa-circle-user"></i>
+                            <span>
+                                Atiqur Rahman
+                            </span>
+                        </h4>
+                    </a>
+                </li>
+
+                <!-- msg show & hide -->
+                <div class="show-hide">
+                    <div class="hide" id="hide" onclick="hideMsg()">
+                        <a href="#">
+                            Hide Messages
+                        </a>
+                    </div>
+                </div>
+            </ul>
+            <a href="#" class="show" id="show" onclick="showMsg()">
+                Show Messages
+            </a>
+
+        </div>
+    </main>
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
